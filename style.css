@@ -1,12 +1,39 @@
-h1 {
+img {
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.header {
+    position: sticky;
+    margin 0;
+}
+
+nav {
     display: flex;
     justify-content: center;
 }
 
-body {
-    text-align: justify;
+nav a {
+    margin: 10px 20px;
+    padding: 5px;
+    text-decoration: none;
 }
 
-.centeralign {
-    text-align: center;
+nav a:hover {
+    color: red;
 }
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+}
+
