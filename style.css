@@ -18,6 +18,7 @@ body {
 
 img {
     width: 300px;
+    height: 200px;
 }
 
 a {
@@ -80,7 +81,7 @@ header {
 /* Projects
 -------------------------------- */
 .projects {
-    background: #F7FFF7;
+    background: #b0ccb0;
 }
 
 .project-item {
@@ -90,10 +91,6 @@ header {
 .project-item h3 {
     margin-top: 0;
 }
-
-/* .projects a {
-
-} */
 
 .projects .btn {
     color: #F7FFF7;
@@ -106,6 +103,12 @@ header {
 
 .projects .btn:hover {
     background: rgba(47, 48, 97, 80%);
+}
+
+/* Work Experience
+-------------------------------- */
+.work-experience {
+    background: #A1C6D7;
 }
 /* Education
 -------------------------------- */
