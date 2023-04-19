@@ -15,10 +15,10 @@
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
+      <header class="header-img">
         <div class="content-wrap">
           <h1>Matthew Price</h1>
-          <h2>Software Engineer + Front-end Developer</h2>
+          <h2>Front-end Developer + Software Engineer</h2>
 
           <p>
             As a developer, I specialize in creating (and occasionally
@@ -56,10 +56,8 @@
               >View project</a
             >
           </section>
-        </div>
 
-        <!-- Copy the whole <section> block to add more projects. -->
-        <div class="content-wrap divider">
+          <!-- Copy the whole <section> block to add more projects. -->
           <section class="project-item">
             <img
               src="images/pokeballimg.jpg"
@@ -78,10 +76,8 @@
               >View project</a
             >
           </section>
-        </div>
+          <!-- Copy the whole <section> block to add more projects. -->
 
-        <!-- Copy the whole <section> block to add more projects. -->
-        <div class="content-wrap divider">
           <section class="project-item">
             <img
               src="images/todoimg.jpg"
@@ -95,7 +91,6 @@
               them disappearing due to its utilization of local storage (in the
               browser).
             </p>
-
             <a
               class="btn"
               href="https://github.com/mattpr1c3/Todo_List"
@@ -109,22 +104,54 @@
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
-        <div class="content-wrap divider">
+        <div class="content-wrap divider item-details">
           <h2>Work Experience</h2>
 
           <!-- Copy this whole <section> block to add more jobs. -->
-          <section>
-            <h3>Technical Support Specialist</h3>
-            <p>Seeing Machines</p>
-            <p>March 2021 - April 2023</p>
-            <p>Job summary goes here. Add as many paragraphs as you need.</p>
-            <p>Optional list:</p>
-            <ul>
-              <li>Delete this list if you don't need it.</li>
-              <li>Created...</li>
-              <li>Lead...</li>
-              <li>Responsible for...</li>
-            </ul>
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Technical Support Specialist</h3>
+              <p>Seeing Machines</p>
+              <p>March 2021 - April 2023</p>
+            </div>
+            <div class="job-summary">
+              <p>Key contributions:</p>
+              <ul>
+                <li>
+                  Provided customer assistance and support in identifying issues
+                  and recommending and implementing solutions to restore
+                  complete service and functionality.
+                </li>
+                <li>
+                  Communicated with customers through various channels,
+                  responded promptly to inbound calls to troubleshoot
+                  connections, and recorded each customer’s interactions and
+                  complaints.
+                </li>
+                <li>
+                  Built sustainable relationships and trust with customer
+                  accounts through open and interactive communication and
+                  provided accurate and valid information using the right
+                  methods.
+                </li>
+                <li>
+                  Facilitated communication with end users in response to
+                  support requests and walked individuals through basic
+                  troubleshooting tasks in a patient and productive manner.
+                </li>
+                <li>
+                  Identified and troubleshot problems by parsing through machine
+                  log information. Followed up on customer service interactions
+                  to measure customers’ happiness as part of the commitment to
+                  customer-driven support.
+                </li>
+                <li>
+                  Maintained records of interaction with customers, reported
+                  issues and completed solutions, and any other action required
+                  of management or repair personnel.
+                </li>
+              </ul>
+            </div>
           </section>
         </div>
         <!-- End of Job block. -->
@@ -143,7 +170,7 @@
           </section>
           <section>
             <h3>Truecoder's Coding Boot camp</h3>
-            <p>Designation received or program name, year attended</p>
+            <!-- <p>Designation received or program name, year attended</p> -->
             <p>
               Nine week program covering HTML, CSS, Javascript, React, SQL,
               Node.js, Express, and Git

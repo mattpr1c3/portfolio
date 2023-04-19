@@ -76,7 +76,13 @@ h3 {
 -------------------------------- */
 header {
     background: #2F3061;
-    color: #F7FFF7;
+    color: #ffffff;
+}
+
+.header-img {
+    background-image: url(./images/backgroundcode.jpg);
+    background-size: cover;
+    background-position: top right ;
 }
 /* Projects
 -------------------------------- */
@@ -110,6 +116,7 @@ header {
 .work-experience {
     background: #A1C6D7;
 }
+
 /* Education
 -------------------------------- */
 .education {
@@ -156,6 +163,12 @@ footer {
     .contact-list {
         display: flex;
         justify-content: center;
+    }
+
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
     }
 }
 
